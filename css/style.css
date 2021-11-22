@@ -420,58 +420,46 @@ section {
   display: flex;
   width: 300px;
   padding: 20px 10px;
-  height: 240px;
+  height: 300px;
   float: left; 
 }
 
-/* for faculty on the members page*/
-.content_container2_faculty { 
+.content_container2_PI { 
   display: flex;
   width: 300px;
   padding: 20px 10px;
-  height: 320px;
+  height: 400px;
   float: left; 
 }
 
-.content_container2_faculty_2 { 
-  display: flex;
-  width: 350px;
-  padding: 20px 10px;
-  float: right; 
-}
-
-.content_container3_faculty { 
-  display: block;
-  width: 1000px;
-  height: 320px;
-  padding: 20px 10px;
-  font-size: 14pt; 
-  line-height: 240px;
-}
-
-.content_container3_faculty_2 { 
-  display: block;
-  text-align: justify;
-  width: 1000px;
-  height: 400px;
-  padding: 20px 10px;
-  font-size: 14pt;
-}
-  
 .valign { 
   display: inline-block;
   vertical-align: middle;
   line-height: 24px;
 }
 
-/* for OTH on the members page*/
-.content_container3 { 
+/* for current group members on the members page*/
+.content_container_current { 
   display: block;
   width: 1000px;
-  height: 250px;
+  height: 300px;
   padding: 20px 10px;
-  font-size: 14pt; 
   line-height: 240px;
+}
+
+.content_container_current_PI { 
+  display: block;
+  width: 1000px;
+  height: 400px;
+  padding: 20px 10px;
+  line-height: 240px;
+}
+
+/* for current group members on the members page*/
+.content_container_alumni { 
+  display: block;
+  width: 1000px;
+  padding: 20px 10px;
 }
 
 .content_container_people { 
