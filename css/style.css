@@ -455,11 +455,12 @@ section {
   line-height: 240px;
 }
 
-/* for current group members on the members page*/
 .content_container_alumni { 
   display: block;
   width: 1000px;
+  height: 300px;
   padding: 20px 10px;
+  line-height: 240px;
 }
 
 .content_container_people { 
