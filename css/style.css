@@ -173,7 +173,7 @@ ul#nav li {
 ul#nav li a, li.current a { 
   float: left;
   font-size: 1.5em;
-  padding: 4px 16px;
+  padding: 4px 12px;
   background: transparent; 
   text-decoration: none;
 }
