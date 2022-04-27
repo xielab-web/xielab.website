@@ -81,11 +81,6 @@ h6 {
   color: black;
   margin: 2.33em 0;
 }
-  
-span { 
-  color: #B1521A;
-  text-shadow: none;
-}
 
 a, a:hover { 
   color: black;
@@ -594,10 +589,6 @@ sub {
   color:rgb(181, 19, 67);  
 }  
 
-.numsout {
-
-}  
-
 /* clearfix hack */
 .clearfix {
   overflow: auto;
@@ -605,9 +596,10 @@ sub {
 
 /* publications */
 .paper-box {
-	margin-bottom:1.5em;
+  display: block;
+  margin-block-start: 1.5em;
+  margin-block-end: 1.5em;
 	width:100%;
-	float:left;
 }
 
 .paper-box .paper-number {
